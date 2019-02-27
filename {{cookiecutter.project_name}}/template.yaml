@@ -2,7 +2,7 @@ Resources:
     hello_world:
         Type: 'TencentCloud::Scf::Function'
         Properties:
-            Handler: index.main
+            Handler: index
             Runtime: Go1
             CodeUri: ./hello_world
             Description: This is a template function
